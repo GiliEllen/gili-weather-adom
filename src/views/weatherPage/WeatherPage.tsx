@@ -1,7 +1,7 @@
-import { search } from "../../api/weatherApi/weatherApi";
 import Header from "../../components/header/Header";
 import Search from "../../components/search/Search";
 import WeatherCard from "../../components/weatherCard/WeatherCard";
+import { search } from "../../api/weatherApi/weatherApi";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

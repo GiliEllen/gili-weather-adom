@@ -1,4 +1,5 @@
-import React, { FC, useEffect, useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { FC, useEffect, useState } from "react";
 import Rectangle from "../../assets/Rectangle1.svg";
 import { Icon, icons } from "../../assets/icons";
 

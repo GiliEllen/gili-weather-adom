@@ -1,4 +1,4 @@
-import React, { useEffect, useState, FC } from "react";
+import { useEffect, useState, FC } from "react";
 import { search } from "../../api/weatherApi/weatherApi";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
