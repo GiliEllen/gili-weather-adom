@@ -1,0 +1,27 @@
+.header_main {
+    display: flex;
+    color: var(--label-color-dark-primary);
+    width: 92vw;
+    position: fixed;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 9px 16px;
+    z-index: 2;
+
+    &_left {
+        display: flex;
+        gap: 2rem;
+
+        &_header {
+            color: var(--label-color-dark-primary, #FFF);
+            font-family: SF Pro Display;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px; /* 121.429% */
+            letter-spacing: 0.364px; 
+        }
+    }
+}

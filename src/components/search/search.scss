@@ -1,0 +1,60 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin: 100px 16px 50px;
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(
+    168deg,
+    rgba(46, 51, 90, 0.26) 1.62%,
+    rgba(28, 27, 51, 0.26) 95.72%
+  );
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  padding: 7px 8px;
+  align-items: center;
+  align-self: stretch;
+  background-color: rgb(34,33,65);
+  z-index: 2;
+}
+
+.magnifying-glass {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3e%3cpath d='M6.3833 12.8767C7.76953 12.8767 9.04785 12.4285 10.0938 11.6814L14.0283 15.616C14.2109 15.7986 14.4517 15.8899 14.709 15.8899C15.2485 15.8899 15.6304 15.4749 15.6304 14.9436C15.6304 14.6946 15.5474 14.4539 15.3647 14.2795L11.4551 10.3616C12.2769 9.28247 12.7666 7.94604 12.7666 6.49341C12.7666 2.98218 9.89453 0.110107 6.3833 0.110107C2.88037 0.110107 0 2.97388 0 6.49341C0 10.0046 2.87207 12.8767 6.3833 12.8767ZM6.3833 11.4988C3.64404 11.4988 1.37793 9.23267 1.37793 6.49341C1.37793 3.75415 3.64404 1.48804 6.3833 1.48804C9.12256 1.48804 11.3887 3.75415 11.3887 6.49341C11.3887 9.23267 9.12256 11.4988 6.3833 11.4988Z' fill='%23EBEBF5' fill-opacity='0.6'/%3e%3c/svg%3e");
+  background-position: center;
+  background-repeat: no-repeat;  
+  // center / contain no-repeat;
+    
+}
+
+input {
+  display: flex;
+  padding: 7px 8px;
+  align-items: center;
+  align-self: stretch;
+  padding: 10px 30px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: var(--label-color-dark-secondary, rgba(235, 235, 245, 0.6));
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: -0.408px;
+}
+
+input::placeholder {
+  color: var(--label-color-dark-secondary, rgba(235, 235, 245, 0.6));
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: -0.408px;
+}

@@ -1,0 +1,29 @@
+@import "./components//header/header.scss";
+@import "./components/search/search.scss";
+@import "./components/weatherCard/weatherCard.scss";
+@import "./views/weatherPage/weatherPage.scss";
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+:root {
+  --label-color-dark-primary: #FFF;
+  --label-dark-secondary: rgba(235, 235, 245, 0.60);
+  font-family: SF Pro Display;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  // background: linear-gradient(168deg, #2e335a 1.62%, #1c1b33 95.72%);
+}
+
+.big_png {
+  width: 160px;
+}
+
+@media only screen 
+   and (min-width : 1200px) {
+    .big_png {
+      width: 140px;
+    }
+}
