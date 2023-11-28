@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Adom Gili's Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a home-task created for Adom Company, serving as a weather application. It utilizes WeatherAPI.com to retrieve weather data. The application is built using React with hooks, React-Toastify, Axios for API calls, and Sass for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches weather information from WeatherAPI.com.
+- Utilizes React with hooks for efficient state management.
+- Displays weather details for specified locations.
+- Uses React-Toastify for user-friendly notifications.
+- Styled with Sass to enhance the user interface.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run this application locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+   git clone https://github.com/your-username/gili-weather-adom.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory:
+    cd gili-weather-adom
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Install dependencies:
+    npm i
+4. Create a .env file in the root directory and add your WeatherAPI.com API key, and base_url
+    VITE_API_KEY="Enter You API key"
+    VITE_BASE_URL="http://api.weatherapi.com/v1"
+5. Start the application:
+    npm run dev
